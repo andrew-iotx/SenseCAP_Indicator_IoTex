@@ -1,12 +1,12 @@
-# SenseCAP Indicator X IoTex (W3bstream)
+# SenseCAP Indicator X IoTeX (W3bstream)
 
-This project integrates the [SenseCAP Indicator](https://www.seeedstudio.com/SenseCAP-Indicator-D1S-p-5645.html) with the [IoTex](https://iotex.io/) blockchain platform to enable sending sensor data to IoTex.
+This project integrates the [SenseCAP Indicator](https://www.seeedstudio.com/SenseCAP-Indicator-D1S-p-5645.html) with the [IoTeX](https://iotex.io/) blockchain platform to enable sending sensor data to IoTeX.
 
 ## Introduction
 
 The SenseCAP Indicator is an industrial IoT development board featuring multiple sensors, WiFi/BLE connectivity, and programmability using C/C++ with the ESP-IDF framework. 
 
-<!-- This project utilizes the SenseCAP's sensors and connectivity to read sensor data and transmit it to the IoTex blockchain network. IoTex provides services for trusted data and automation, making it useful for IoT solutions requiring provenance and security. -->
+<!-- This project utilizes the SenseCAP's sensors and connectivity to read sensor data and transmit it to the IoTeX blockchain network. IoTeX provides services for trusted data and automation, making it useful for IoT solutions requiring provenance and security. -->
 
 By integrating these two platforms, we can build reliable IoT solutions that leverage blockchain's decentralization, security, and immutability properties. Potential applications include supply chain monitoring, industrial automation, smart cities, etc.
 
@@ -15,7 +15,7 @@ By integrating these two platforms, we can build reliable IoT solutions that lev
 To use this project, you will need:
 
 - SenseCAP Indicator development board
-- IoTex account 
+- IoTeX account 
 - Development environment set up for ESP-IDF 
 
 ### Hardware Setup
@@ -30,12 +30,12 @@ To use this project, you will need:
 
 2. Clone this repository
    ```bash
-   git clone https://github.com/Seeed-Solution/SenseCAP_Indicator_IoTex
+   git clone https://github.com/Seeed-Solution/SenseCAP_Indicator_IoTeX
    ```
 
-3. Sign up for an IoTex account at [https://iotex.io/](https://iotex.io/)
+3. Sign up for an IoTeX account at [https://iotex.io/](https://iotex.io/)
 
-4. Configure your IoTex credentials in `main/iotex_config.h`
+4. Configure your IoTeX credentials in `main/iotex_config.h`
 
 5. Build and deploy the project to your SenseCAP
     > more details on [SenseCAP_Indicator_How_To_Flash_The_Default_Firmware](https://wiki.seeedstudio.com/SenseCAP_Indicator_How_To_Flash_The_Default_Firmware/)
@@ -44,15 +44,15 @@ To use this project, you will need:
    idf.py build flash monitor
    ```
 
-Now the SenseCAP should begin publishing sensor data to IoTex!
+Now the SenseCAP should begin publishing sensor data to IoTeX!
 
 ## Usage
 
-<!-- By default this project will read the on-board temperature sensor every 5 seconds and publish the reading to IoTex.
+<!-- By default this project will read the on-board temperature sensor every 5 seconds and publish the reading to IoTeX.
 
-The sensor reading frequency, IoTex endpoint, and other parameters can be configured in `main/iotex_config.h`.
+The sensor reading frequency, IoTeX endpoint, and other parameters can be configured in `main/iotex_config.h`.
 
-See the [API documentation](https://developers.iotex.io/reference/api-reference) for details on integrating with IoTex services like storing data on-chain. -->
+See the [API documentation](https://developers.iotex.io/reference/api-reference) for details on integrating with IoTeX services like storing data on-chain. -->
 
 ## References
 
